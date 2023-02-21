@@ -14,7 +14,7 @@ sudo pip3 install stromer_api
 cd ~/domoticz/plugins
 mkdir stromer-ebike
 cd stromer-ebike
-wget
+wget https://github.com/elnkosc/stromer_domoticz_plugin/blob/main/plugin.py
 
 # now restart domoticz
 sudo service domoticz restart
